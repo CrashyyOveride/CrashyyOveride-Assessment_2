@@ -13,5 +13,11 @@ currently being supported with security updates.
 | < 4.0   | :x:                |
 
 ## Reporting a Vulnerability
+We take the security of our software seriously. If you believe you have found a security vulnerability, please follow these steps:
+Do not open a public issue.
 
-When you use this program secure your self or bad things will happen to you. - Mr McFarlane
+Email a detailed description of the vulnerability to johnny.chan@sydstu.catholic.edu.au
+Include as much information as possible, such as:
+--> Steps to reproduce the exploit.
+--> The potential impact of the vulnerability.
+--> Any suggested fixes or mitigations.
