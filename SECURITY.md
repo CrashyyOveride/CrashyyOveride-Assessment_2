@@ -18,6 +18,7 @@ Do not open a public issue.
 
 Email a detailed description of the vulnerability to johnny.chan@sydstu.catholic.edu.au
 Include as much information as possible, such as:
+##
   --> Steps to reproduce the exploit.
       --> The potential impact of the vulnerability.
           --> Any suggested fixes or mitigations.
