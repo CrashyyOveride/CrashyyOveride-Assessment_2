@@ -16,8 +16,4 @@ currently being supported with security updates.
 We take the security of our software seriously. If you believe you have found a security vulnerability, please follow these steps:
 Do not open a public issue.
 
-Email a detailed description of the vulnerability to johnny.chan@sydstu.catholic.edu.au
-Include as much information as possible, such as:
---> Steps to reproduce the exploit.
---> The potential impact of the vulnerability.
---> Any suggested fixes or mitigations.
+To report a security vulnerability, please email a detailed description of the issue to johnny.chan@sydstu.catholic.edu.au. To help us address the risk quickly, please include as much information as possible, specifically: the exact steps to reproduce the exploit, the potential impact of the vulnerability, and any suggested fixes or mitigations you may have.
