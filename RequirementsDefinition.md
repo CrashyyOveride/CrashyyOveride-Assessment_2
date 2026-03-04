@@ -10,4 +10,4 @@ _**Functional Requirements**_
 --> Real-Time Validation: The system must compare the user's input against a predefined "Correct Logic" key stored in a JSON-like object.
 
 **_Summary Generation_**
-Upon completion, the system must perform a calculation to present a percentage-based grade.
+Upon --- the system must perform a calculation to present a percentage-based grade.
