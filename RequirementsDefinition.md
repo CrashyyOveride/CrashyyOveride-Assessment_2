@@ -11,3 +11,4 @@ _**Functional Requirements**_
 
 **Summary** 
 --> The system must perform a calculation to present a percentage-based grade.
+--> Explained the systems requirments etc (Problem, Solution, and identifying users)
