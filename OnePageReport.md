@@ -1,6 +1,6 @@
-PLANNING
+### **PLANNING**
 
-Purpose & Goal
+ **Purpose & Goal**
 
 The "Pseudocode Logic Lab" is designed to act as a bridge between abstract thought and concrete coding. By focusing on pseudocode, the product removes the "syntax frustration" of languages like C++ or Java, allowing students to master algorithmic thinking first.
 Design Decisions (The "Why")
