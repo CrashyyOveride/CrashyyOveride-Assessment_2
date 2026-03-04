@@ -9,5 +9,5 @@ _**Functional Requirements**_
 --> State Management: The system must track the user's progress across at least 5 different logic scenarios.
 --> Real-Time Validation: The system must compare the user's input against a predefined "Correct Logic" key stored in a JSON-like object.
 
-**Summary**
-Upon --- the system must perform a calculation to present a percentage-based grade.
+**Summary** 
+--> The system must perform a calculation to present a percentage-based grade.
