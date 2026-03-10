@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <title>Pseudocode Logic Lab v5.1</title>
+    <script src="https://cdn.jsdelivr"></script>
+    <style>
+        :root {
+            --bd-dark: #0a0a0a;
+            --accent: #007acc;
+            --accent-glow: rgba(0,122,204,0.4);
+            --glass: rgba(30,30,30,0.85);
+            --success: #4cad50;
+            --error: #f44336;
+            --text: #e0e0e0;
+        }
 
+        body {
+            background: radial-gradient(circle at the center, #1a1a1a 0%, #050505 100%);
+            color: var(--text);
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            margin: 0;
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #app-container {
+            width: 90%;
+            max-width: 800px;
+            background: var(--glass);
+            background-filter: blur(12px);
+            border: 1px solid #333;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.9);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-track { height: 6px; background: #222; width: 100%; position: absolute; top: 0; left: 0; }
+        .progess-fill { height: 100%; background: var(--accent); width: 0%; box-shadow: 0 0 10px var(--accent); }
+        
+        .status-bar {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        #scenario-title { margin-top: 0; font-weight: 300; letter-spacing: -0.5px; }
+        .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 25px 0; }
+    </style>
+</head>
+
+
+
+
+</html>
