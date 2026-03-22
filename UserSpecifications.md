@@ -16,11 +16,11 @@ __Action when answer = wrong__
 
 __Action when answer = right__
 
---> The solution you picked will turn green (✓ LOGIC VERIFIED -- "Standard syntax confirmed")
+--> The solution you picked will turn green
 
 --> The wrong answer will turn red 
 
---> 
+--> At the bottom of the box, it will provide a explanantion (✓ LOGIC VERIFIED -- "Standard syntax confirmed")
 
 
 __Storage Mechanism__
