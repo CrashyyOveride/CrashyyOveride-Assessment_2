@@ -92,8 +92,23 @@
             border-radius: 8px; width: 100%; font-weight: 700; cursor: pointer; 
             margin-top: 20px; transition: 0.3s; text-transform: uppercase;
         }
+        .btn-supreme:hover { filter: brightness(1.2); box-shadow: 0 0 20px var(--accent-glow); }
     </style>
 </head>
+<body>
+
+    <div id="app-container">
+        <div class="progress-track"><div id="p-bar" class="progress-fill"></div></div>
+
+        <div id="quiz-view">
+            <div class="status-bar" id="progress-text">Session Active // node.01</div>
+            <h2 id="scenario-title"> Initializing Systems...</h2>
+            <div id="options-container" class="options-grid"></div>
+            <div id="hint-box"></div>
+            <button id="next-btn" class="btn-supreme" style="display: none;">Continue [Enter]</button>
+        </div>
+            
+</body>
 
 
 
