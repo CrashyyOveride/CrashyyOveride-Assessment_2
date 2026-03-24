@@ -22,6 +22,8 @@ __Action when answer = right__
 
 --> At the bottom of the box, it will provide a explanantion (✓ LOGIC VERIFIED -- "Standard syntax confirmed")
 
+--> It enables UX (  It enables neat and formated correct answers  )
+
 
 __Storage Mechanism__
 
