@@ -140,7 +140,23 @@
 
         function init() { 
             state.canAnswer = true;
-            const data 
+            const data = quizData[state.currentIndex];
+
+            ui.title.innerText = data.title;
+            ui.progText.innerText = 'Scenerio Questions 0${state.currentIndex + 1} // ${quizData.length}';
+            ui.container.innerHTML = '';
+            ui.next.style.display = 'none';
+            ui.progress.style.width = '${(state.currentIndex / quizData.length) * 100}%';
+
+            data.options.forEach((opt, i) => {
+                const card = document.createElement('div');
+                card.className = 'code-card';
+                card.innerText = opt;
+                card.onclick = () => handleChoice(i, card);
+                ui.container.appendChild(card);
+            });
+        }
+        
 
     </script>
             
