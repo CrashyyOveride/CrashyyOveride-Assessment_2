@@ -138,32 +138,27 @@ const ui = {
     rankText: document.getElementById('rank-text')
 };
 
-// INITIALIZATION SUBPROGRAM
 function init() { 
     state.canAnswer = true;
     const data = quizData[state.currentIndex];
 
     ui.title.innerText = data.title;
-    // FIXED: Using backticks for template literals
     ui.progText.innerText = `Scenario Question 0${state.currentIndex + 1} // ${quizData.length}`;
     ui.container.innerHTML = '';
     ui.next.style.display = 'none';
     ui.hint.classList.remove('visible');
     
-    // FIXED: Calculation for progress bar
     ui.progress.style.width = `${(state.currentIndex / quizData.length) * 100}%`;
 
     data.options.forEach((opt, i) => {
         const card = document.createElement('div');
         card.className = 'code-card';
         card.innerText = opt;
-        // PARAMETER PASSING: i and card are passed to handleChoice
         card.onclick = () => handleChoice(i, card);
         ui.container.appendChild(card);
     });
 }
 
-// VALIDATION SUBPROGRAM (Required for Part B)
 function handleChoice(index, element) {
     if (!state.canAnswer) return;
     state.canAnswer = false;
@@ -183,7 +178,6 @@ function handleChoice(index, element) {
     ui.next.style.display = 'block';
 }
 
-// NAVIGATION LOGIC
 ui.next.onclick = () => {
     state.currentIndex++;
     if (state.currentIndex < quizData.length) {
@@ -198,7 +192,6 @@ function showReport() {
     ui.reportView.style.display = 'block';
     ui.progress.style.width = '100%';
     
-    // CALCULATED RANK
     const percent = (state.score / quizData.length) * 100;
     ui.rankText.innerText = percent === 100 ? "S-TIER" : percent >= 80 ? "A" : "B";
 }
