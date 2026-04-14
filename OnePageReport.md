@@ -24,5 +24,5 @@ The system uses the four required programming structures:
 
 ### 4. System Specifications
 *   **Hardware:** Works on any computer or tablet with a web browser.
-*   **Software:** Built using 
+*   **Software:** Built using HTML5, CSS3, JavaScript, and a Python script for testing logic. 
 *   **Version Control:** Hosted on GitHub with weekly updates to show project progress.
