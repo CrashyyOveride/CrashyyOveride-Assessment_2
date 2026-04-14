@@ -1,12 +1,28 @@
-### **PLANNING**
+# Technical Report: Pseudocode Logic Lab
 
- **Purpose & Goal**
+### 1. Purpose
+The Pseudocode Logic Lab is a web tool that helps students learn formal NESA pseudocode. It allows users to practice logic scenarios like variable assignments and loops, providing instant feedback to help bridge the gap between basic logic and formal exam notation.
 
-The "Pseudocode Logic Lab" is designed to act as a bridge between abstract thought and concrete coding. By focusing on pseudocode, the product removes the syntax frustration of languages like C++ or Java, allowing students to master algorithmic thinking first.
-Design Decisions
+---
 
-JavaScript for Interactivity: I chose JavaScript as the core engine because it allows for asynchronous UI updates. This means the page doesn't refresh when a user answers, keeping the student "in the flow" of learning.
+### 2. Design Decisions
+*   **Interface:** A dark IDE theme was chosen to look like a professional coding environment and reduce eye strain.
+*   **Modularity:** The program is divided into three functions (init, handleChoice, and showReport) to keep the code organized and easy to fix.
+*   **Data Storage:** I used an Array of Objects to store the quiz questions. This makes it easy to add more questions later without changing the main code.
+*   **Integrity:** GitHub was used to show the step-by-step development of the project, proving the work is original.
 
-Array-Based Question Bank: Questions are stored in an Array of Objects. This design decision follows the DRY principle, allowing the same HTML structure to be reused for infinite questions.
+---
 
-CSS Flexbox Layout: I used CSS Flexbox for the layout to ensure the product is responsive, meaning students can practice on their mobile phones as easily as on a desktop.
+### 3. Functionality
+The system uses the four required programming structures:
+*   **Sequence:** The code runs in a specific order to set up each new question.
+*   **Selection:** IF statements check if the user answer is correct or incorrect.
+*   **Iteration:** A loop is used to automatically create the four answer buttons on the screen.
+*   **Subprograms:** The validation logic is kept in a separate function that uses parameters to process user clicks.
+
+---
+
+### 4. System Specifications
+*   **Hardware:** Works on any computer or tablet with a web browser.
+*   **Software:** Built using 
+*   **Version Control:** Hosted on GitHub with weekly updates to show project progress.
