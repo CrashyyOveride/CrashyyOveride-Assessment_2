@@ -79,9 +79,9 @@
         }
         #hint-box.visible { visibility: visible; opacity: 1; transform: translateY(0); }
 
-        .btn-supreme {
+        .submit.btn {
             background: var(--accent); color: white; border: none; padding: 16px;
             border-radius: 8px; width: 100%; font-weight: 700; cursor: pointer;
             margin-top: 20px; transition: 0.3s; text-transform: uppercase;
         }
-        .btn-supreme:hover { filter: brightness(1.2); box-shadow: 0 0 20px var(--accent-glow); }
+        .submit.btn:hover { filter: brightness(1.2); box-shadow: 0 0 20px var(--accent-glow); }
