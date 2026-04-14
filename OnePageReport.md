@@ -1,4 +1,4 @@
-# Technical Report: Pseudocode Logic Lab
+# One Page Report: Pseudocode Logic Lab
 
 ### 1. Purpose
 The Pseudocode Logic Lab is a web tool that helps students learn formal NESA pseudocode. It allows users to practice logic scenarios like variable assignments and loops, providing instant feedback to help bridge the gap between basic logic and formal exam notation.
