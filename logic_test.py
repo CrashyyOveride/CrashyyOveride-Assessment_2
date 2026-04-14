@@ -1,8 +1,4 @@
 def validate_answer(user_choice, correct_answer):
-    """
-    Subprogram with parameter passing.
-    Compares the user's input against the correct key.
-    """
     if user_choice == correct_answer:
         return True
     else:
