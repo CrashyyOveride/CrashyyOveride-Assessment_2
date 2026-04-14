@@ -28,7 +28,7 @@ The following log documents the weekly evolution of the **Pseudocode Logic Lab**
 # Debugging & Error Correction Report
 
 ### 1. Overview
-Throughout the development of the **Pseudocode Logic Lab**, several errors were identified across syntax, logic, and runtime categories. Systematic testing was used to identify these issues, and the following resolutions were implemented to ensure the software meets all user specifications and NESA standards.
+Throughout the development of the **Pseudocode Logic Lab**, several errors were identified across syntax, logic, and runtime categories. Testing was used to identify these issues, and the following resolutions were implemented to ensure the software meets all user specifications and NESA standards.
 
 ---
 
@@ -40,7 +40,7 @@ Throughout the development of the **Pseudocode Logic Lab**, several errors were 
 | **Syntax** | **Template Literal Error:** Dynamic strings in `script.js` were enclosed in single quotes (`'`) instead of backticks (`` ` ``). | The UI displayed raw code (e.g., `${currentIndex}`) instead of the actual question data. | Refactored all dynamic UI updates to use backticks, enabling correct variable interpolation. |
 | **Logic** | **Multi-Selection Glitch:** Users were able to click multiple answer cards before moving to the next scenario. | Users could artificially inflate their scores by clicking the correct answer after an initial mistake. | Implemented a `state.canAnswer` Boolean flag that locks the input immediately after the first click. |
 | **Runtime** | **DOM Null Reference:** The script was attempting to access HTML IDs before the page had finished loading. | The application failed to initialize, throwing a `null reference` error in the browser console. | Relocated the `<script>` tag to the bottom of `index.html` to ensure the DOM was fully parsed before execution. |
-| **Syntax** | **CSS Property Typo:** The property `background-filter` was used instead of `backdrop-filter`. | The "Glassmorphism" visual effect failed to render, resulting in a flat, opaque container background. | Corrected the property to `backdrop-filter: blur(12px)` to ensure hardware-accelerated transparency. |
+| **Syntax** | **CSS Property Typo:** The property `background-filter` was used instead of `backdrop-filter`. | The "Glassmorphism" visual effect failed to render, resulting in a flat container background. | Corrected the property to `backdrop-filter: blur(12px)` to ensure hardware-accelerated transparency. |
 | **Logic** | **Progress Bar Calculation:** The progress bar logic didn't account for the final state, causing it to stop at 80%. | The user received a visual indication that the quiz was incomplete even when on the final question. | Adjusted the calculation formula in `init()` to properly scale the width based on total array length. |
 
 ---
