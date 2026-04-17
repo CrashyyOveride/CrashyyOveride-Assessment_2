@@ -2,6 +2,10 @@
 
 ___This is a readme.md which means this will give you a rundown of where to go and what to do (Just wanted to make it easier)___
 
+##FlowChart.md 
+
+This flowchart was made before the real coding was done, this was to help provide a clear structure throughout this project. I've just uploaded it now as I was polishing my overall assessment. To advise please look at my flowchart first as it can provide a better understanding of how my websites work on the inside or how I planned it out. 
+
 ## DataDictionary.md
 
 This will give you a breakdown on the variables that I have used in this software development task. 
