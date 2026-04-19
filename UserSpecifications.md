@@ -1,11 +1,11 @@
 ### User Specifications
 
-__Immediate Feedback Loop__
+## __Immediate Feedback Loop__
 
 The system must use DOM manipulation to change UI elements (colors/text) immediately upon user interaction, ensuring the student learns from mistakes in real-time.
 
 
-__Action when answer = wrong__
+## __Action when answer = wrong__
 
 --> The solution you picked will turn red
 
@@ -14,7 +14,7 @@ __Action when answer = wrong__
 --> At the bottom of the box, it will provide a explanation (× SYNTAX ERROR -- "explanation")
 
 
-__Action when answer = right__
+## __Action when answer = right__
 
 --> The solution you picked will turn green
 
@@ -25,11 +25,11 @@ __Action when answer = right__
 --> It enables UX / UI (  It enables neat and formated correct answers  )
 
 
-__Storage Mechanism__
+## __Storage Mechanism__
 
 Results must be pushed into a Global Array. This allows the system to analyze which specific topics the user failed.
 
-__User Interface (UI)__
+## __User Interface (UI)__
 
 The interface must be "distraction-free," utilizing a dark-themed container to reduce eye strain, similar to professional Visual Studio Code environments.
 
