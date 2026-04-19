@@ -1,7 +1,7 @@
 # **Requirements Definition** 
 The Problem: Software Engineering students often struggle with the transition from verbal logic to formal algorithm notation. Existing tools are either too simple or too complex, leaving a gap for a lightweight, interactive logic-validator.
 
-## _**The User**_
+## **The User**
 Entry-level students who understand basic logic but fail to apply correct Pseudocode Syntax 
 
 ## _**Functional Requirements**_
