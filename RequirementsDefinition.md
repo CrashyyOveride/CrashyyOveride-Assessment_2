@@ -4,7 +4,7 @@ The Problem: Software Engineering students often struggle with the transition fr
 ## **The User**
 Entry-level students who understand basic logic but fail to apply correct Pseudocode Syntax 
 
-## _**Functional Requirements**_
+## **Functional Requirements**
 ### Dynamic Rendering
 The system must render pseudocode snippets with proper indentation to demonstrate nested structures.
 ### State Management
