@@ -75,7 +75,7 @@ function showReport() {
     ui.progress.style.width = '100%';
     
     const percent = (state.score / quizData.length) * 100;
-    ui.rankText.innerText = percent === 100 ? "S-TIER" : percent >= 80 ? "A" : "B";
+    ui.rankText.innerText = percent === 100 ? "A+" : percent >= 90 ? "A" : percent >= 80 ? "B" : percent >= 70 ? "C" : percent >= 60 ? "D or Below";
 }
 
 init();
