@@ -84,4 +84,6 @@ function showReport() {
         percent >= 60 ? "D" : "F"; 
 }
 
-init();
+document.addEventListener('DOMContentLoaded', () => {
+    init();
+});
