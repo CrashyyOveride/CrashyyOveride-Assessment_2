@@ -5,12 +5,10 @@ The Problem: Software Engineering students often struggle with the transition fr
 Entry-level students who understand basic logic but fail to apply correct Pseudocode Syntax 
 
 ## **Functional Requirements**
-### Dynamic Rendering
-The system must render pseudocode snippets with proper indentation to demonstrate nested structures.
-### State Management
-The system must track the user's progress across at least 5 different logic scenarios.
-### Real-Time Validation
-The system must compare the user's input against a predefined "Correct Logic" key stored in a JSON-like object.
+--> The system must display multiple-choice questions on pseudocode. <br/>
+--> The system must provide immediate feedback (Hints) upon answering. <br/>
+--> The system must track scores and provide a final rank (A–F) based on performance. <br/>
+--> Security: System requires a password for administrative logic testing. <br/>
 
 ## **Summary** 
 --> The system must perform a calculation to present a percentage-based grade.
