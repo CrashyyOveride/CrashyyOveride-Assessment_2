@@ -106,7 +106,6 @@ window.addEventListener('keydown', (e) => {
     }
 });
 
-init();
 const audio = document.getElementById('bg-music');
 
 function startAmbiance() {
@@ -127,3 +126,6 @@ function startAmbiance() {
 }
 
 document.addEventListener('click', startAmbiance);
+
+init();
+
