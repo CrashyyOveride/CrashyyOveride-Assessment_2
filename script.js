@@ -84,10 +84,11 @@ function showReport() {
         percent >= 60 ? "D" : "F"; 
 }
 
-init();
-
 window.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && ui.next.style.display !== 'none') {
         ui.next.click();
     }
 });
+
+init();
+
