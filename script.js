@@ -1,9 +1,9 @@
     const quizData = [
-    { title: "Scenario 1: Variable Assignment", options: ["SET x = 10", "x ← 10", "x := 10", "10 → x"], correct: 1, hint: "Pseudocode standard uses the assignment arrow (←)." },
-    { title: "Scenario 2: Selection Structure (IF)", options: ["IF age > 18\n  OUTPUT 'Adult'\nENDIF", "IF age > 18 THEN\n  OUTPUT 'Adult'\nENDIF", "IF age > 18 DO\n  OUTPUT 'Adult'", "WHEN age > 18:\n  OUTPUT 'Adult'"], correct: 1, hint: "Formal notation requires 'THEN' and 'ENDIF'." },
-    { title: "Scenario 3: Definite Iteration (FOR)", options: ["FOR i = 1 to 10\n  OUTPUT i\nNEXT i", "FOR i FROM 1 TO 10\n  OUTPUT i", "WHILE i < 10\n  OUTPUT i\nENDWHILE", "LOOP 10 TIMES\n  OUTPUT i"], correct: 0, hint: "Definite loops require a counter and 'NEXT'." },
-    { title: "Scenario 4: Array Indexing", options: ["names.get(0)", "names{1}", "names[0]", "names.index(0)"], correct: 2, hint: "Square brackets [ ] are the industry standard." },
-    { title: "Scenario 5: Boolean Logic (AND)", options: ["IF x > 0 && x < 10", "IF x > 0 AND x < 10 THEN", "IF x > 0 & x < 10", "IF (x > 0 + x < 10)"], correct: 1, hint: "Use keywords (AND/OR) for clarity in pseudocode." }
+    { title: "Scenario: Variable Assignment", options: ["SET x = 10", "x ← 10", "x := 10", "10 → x"], correct: 1, hint: "Pseudocode standard uses the assignment arrow (←)." },
+    { title: "Scenario: Selection Structure (IF)", options: ["IF age > 18\n  OUTPUT 'Adult'\nENDIF", "IF age > 18 THEN\n  OUTPUT 'Adult'\nENDIF", "IF age > 18 DO\n  OUTPUT 'Adult'", "WHEN age > 18:\n  OUTPUT 'Adult'"], correct: 1, hint: "Formal notation requires 'THEN' and 'ENDIF'." },
+    { title: "Scenario: Definite Iteration (FOR)", options: ["FOR i = 1 to 10\n  OUTPUT i\nNEXT i", "FOR i FROM 1 TO 10\n  OUTPUT i", "WHILE i < 10\n  OUTPUT i\nENDWHILE", "LOOP 10 TIMES\n  OUTPUT i"], correct: 0, hint: "Definite loops require a counter and 'NEXT'." },
+    { title: "Scenario: Array Indexing", options: ["names.get(0)", "names{1}", "names[0]", "names.index(0)"], correct: 2, hint: "Square brackets [ ] are the industry standard." },
+    { title: "Scenario: Boolean Logic (AND)", options: ["IF x > 0 && x < 10", "IF x > 0 AND x < 10 THEN", "IF x > 0 & x < 10", "IF (x > 0 + x < 10)"], correct: 1, hint: "Use keywords (AND/OR) for clarity in pseudocode." }
 ];
 
 let state = { currentIndex: 0, score: 0, canAnswer: true };
