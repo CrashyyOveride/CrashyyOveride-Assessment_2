@@ -83,17 +83,21 @@ ui.next.onclick = () => {
 
 function showReport() {
     ui.quizView.style.display = 'none';
-    ui.reportView.style.display = 'block';
+    
+    ui.reportView.classList.add('active'); 
     ui.progress.style.width = '100%';
 
     const percent = (state.score / quizData.length) * 100;
+    const rank = percent === 100 ? "A+" : percent >= 90 ? "A" : percent >= 80 ? "B" : percent >= 70 ? "C" : percent >= 60 ? "D" : "F";
 
-    ui.rankText.innerText = 
-        percent === 100 ? "A+" : 
-        percent >= 90 ? "A" : 
-        percent >= 80 ? "B" : 
-        percent >= 70 ? "C" : 
-        percent >= 60 ? "D" : "F"; 
+    ui.rankText.innerHTML = `<span class="animate-rank">${rank}</span>`;
+    
+    const summary = document.getElementById('performance-summary');
+    if(percent === 100) summary.innerText = "System Optimised. Perfect Score attained.";
+    else if(percent >= 70) summary.innerText = "Validation Successful. Knowledge base stable.";
+    else summary.innerText = "Data Correlation Error. Review recommended.";
+
+
 }
 
 window.addEventListener('keydown', (e) => {
