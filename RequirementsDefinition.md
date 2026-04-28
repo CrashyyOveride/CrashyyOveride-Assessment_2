@@ -8,7 +8,7 @@ Entry-level students who understand basic logic but fail to apply correct Pseudo
 --> The system must display multiple-choice questions on pseudocode. <br/>
 --> The system must provide immediate feedback (Hints) upon answering. <br/>
 --> The system must track scores and provide a final rank (A–F) based on performance. <br/>
---> Security: System requires a password for administrative logic testing. <br/>
+--> Security: The Python Code System requires a password for administrative logic testing. <br/>
 
 ## **Summary** 
 --> The system must perform a calculation to present a percentage-based grade.
