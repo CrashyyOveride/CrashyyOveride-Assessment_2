@@ -107,4 +107,23 @@ window.addEventListener('keydown', (e) => {
 });
 
 init();
+const audio = document.getElementById('bg-music');
 
+function startAmbiance() {
+    audio.volume = 0; 
+    audio.play().catch(err => console.log("Audio waiting for user click."));
+    
+    let vol = 0;
+    const fadeIn = setInterval(() => {
+        if (vol < 0.3) { 
+            vol += 0.05;
+            audio.volume = vol;
+        } else {
+            clearInterval(fadeIn);
+        }
+    }, 200);
+
+    document.removeEventListener('click', startAmbiance);
+}
+
+document.addEventListener('click', startAmbiance);
