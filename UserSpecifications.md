@@ -33,6 +33,4 @@ Results must be pushed into a Global Array. This allows the system to analyze wh
 
 The interface must be "distraction-free," utilizing a dark-themed container to reduce eye strain, similar to professional Visual Studio Code environments.
 
-__Input Handling__
 
-The system must respond to both Click Events (for multiple choice) and Keyboard Events (for navigation), making it accessible for different user preferences.
